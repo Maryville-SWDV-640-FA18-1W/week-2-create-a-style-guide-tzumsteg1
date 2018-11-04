@@ -20,23 +20,28 @@
         }
 
         h1 {
-            font-size: 24px;
+            //This will be used to show the titles of each class
+            font: helvetica;
+            font-size: 26px;
             font-weight: bold;
         }
 
         h2 {
-            font-size: 20px;
+            font: helvetica;
+            font-size: 24px;
         }
 
         h3 {
-            font-size: 16px;
+            font: helvetica;
+            font-size: 18px;
         }
 
         button {
-            background-color: orange;
+            background-color: rgba(97, 223, 212, 0.788);
             border-radius: 5px;
             padding: 10px;
-            color: white;
+            font-weight: bold;
+            color: rgb(77, 77, 87);
         }
 
         .inputLabel {
@@ -46,7 +51,7 @@
 
         input.inputField {
             padding: 5px;
-            border: 1px solid orange;
+            border: 1px solid rgba(97, 223, 212, 0.788);
         }
 
         div.box {
@@ -57,15 +62,15 @@
         }
 
         #primary1 {
-            background-color: orange;
+            background-color: rgba(97, 223, 212, 0.788);
         }
 
         #primary2 {
-            background-color: red;
+            background-color: rgb(38, 134, 126);
         }
 
         #primary3 {
-            background-color: yellow;
+            background-color: rgb(77, 77, 87);
         }
 
         .warning {
@@ -85,7 +90,7 @@
         }
 
         .success {
-            background-color: green;
+            background-color: rgb(15, 172, 54);
             font-weight: bold;
             color: white;
             padding: 10px;
@@ -153,7 +158,9 @@
                     <h1>
                         <a name="about"></a>My Styles</h1>
                 </div>
-                <p>This page contains specific style guide information for my front end interface.</p>
+                <p>This page contains specific style guide information for my front end interface. The website I have created 
+                    is for my students to use for easy access materials.
+                </p>
             </div>
             <!-- End About -->
 
@@ -225,7 +232,7 @@
                 </div>
                 <p>For the varous forms that the application will contain, it will contain input fields and labels with the below styling:</p>
                 <form>
-                    <label for="name" class="inputLabel">Name</label>
+                    <label for="name" class="inputLabel">Student ID:</label>
                     <input type="input" id="name" class="inputField" value="">
                 </form>
             </div>
